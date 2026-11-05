@@ -20,7 +20,7 @@
 - Voting machine versus weighing machine, borrowed from Benjamin Graham (S003, S048).
 - Owner versus tenant: the tenants who nailed the Christmas tree to the floor (S018, S051).
 - Doors you can walk back through (S025, S063).
-- The dorm room: Amazon rode the post office and credit cards, space has no such road yet (S013, S030).
+- The dorm chamber: Amazon rode the post office and credit cards, space has no such road yet (S013, S030).
 
 ## How he opens and closes
 

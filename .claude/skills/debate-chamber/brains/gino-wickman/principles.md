@@ -35,7 +35,7 @@
 
 7. **Be fanatical about resolution.** An issue is solved only when there is an owner, a To-Do, and real agreement; issues should never linger.
    - "For strong leadership teams, issues never linger." (S094)
-   - "One of the purest forms of leadership is the willingness to stay in the room until it’s done." (S091)
+   - "One of the purest forms of leadership is the willingness to stay in the chamber until it’s done." (S091)
    - Sources: 11. Confidence: high.
 
 8. **Open and honest is the foundation; when a team is not honest, the leader is the cause.**

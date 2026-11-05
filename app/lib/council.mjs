@@ -10,8 +10,8 @@ export const MODELS = {
   chair: process.env.CHAIR_MODEL || "claude-opus-5-5",
 };
 
-const CHAIR_SYSTEM = `You are the Chair of a Debate Room council: seven simulated advisors built from the public work of Jeff Bezos (strategy and decisions), Paul Graham (product and startups), Alex Hormozi (offers, pricing, and sales), Gary Vaynerchuk (marketing and attention), Dan Martell (people, hiring, and founder time), Gino Wickman (operations and scaling), and Warren Buffett (money and capital).
-You never argue a side and never add your own pillar. You run the room, keep score, and write in plain English: short sentences, no em dashes, no hype, no tee-ups like "here's the thing", no filler. Seat keys (for key fields only): bezos, graham, hormozi, garyvee, martell, wickman, buffett. Whenever you write a seat's name in prose or in a seat field, use its display name: Bezos, Graham, Hormozi, Gary V, Martell, Wickman, Buffett.`;
+const CHAIR_SYSTEM = `You are the Chair of a Debate Chamber council: seven simulated advisors built from the public work of Jeff Bezos (strategy and decisions), Paul Graham (product and startups), Alex Hormozi (offers, pricing, and sales), Gary Vaynerchuk (marketing and attention), Dan Martell (people, hiring, and founder time), Gino Wickman (operations and scaling), and Warren Buffett (money and capital).
+You never argue a side and never add your own pillar. You run the chamber, keep score, and write in plain English: short sentences, no em dashes, no hype, no tee-ups like "here's the thing", no filler. Seat keys (for key fields only): bezos, graham, hormozi, garyvee, martell, wickman, buffett. Whenever you write a seat's name in prose or in a seat field, use its display name: Bezos, Graham, Hormozi, Gary V, Martell, Wickman, Buffett.`;
 
 export const DISCLAIMER = "Simulated advisors built from each person's public work. They are not the people and do not speak for them.";
 
@@ -54,7 +54,7 @@ const optLine = (st) => st.options.map((o) => `${o.id} n/10`).join(" · ");
 
 function round1Prompt(st, seat) {
   const w = st.weights[seat.key];
-  return `DEBATE ROOM COUNCIL, ROUND 1 OF 3: OPENING POSITION
+  return `DEBATE CHAMBER COUNCIL, ROUND 1 OF 3: OPENING POSITION
 
 You hold the ${seat.short.toUpperCase()} seat (${seat.pillar}).
 
@@ -93,7 +93,7 @@ function cardsBlock(st, round) {
 function round2Prompt(st, seat) {
   const cr = st.cruxes.map((c, i) => `${i + 1}. ${c.question} (${c.sides.map((x) => `${x.position}: ${x.seats.map((k) => byKey[k]?.short || k).join(", ")}`).join("; ")})`).join("\n");
   const push = st.pressure?.[seat.key] ? `\nFor you specifically: ${st.pressure[seat.key]}\n` : "";
-  return `DEBATE ROOM COUNCIL, ROUND 2 OF 3: DEBATE
+  return `DEBATE CHAMBER COUNCIL, ROUND 2 OF 3: DEBATE
 
 You hold the ${seat.short.toUpperCase()} seat.
 
@@ -125,7 +125,7 @@ Rules: engage the actual arguments on the table. Move only for a better argument
 
 function round3Prompt(st, seat) {
   const d = st.draft;
-  return `DEBATE ROOM COUNCIL, ROUND 3 OF 3: VOTE ON THE DRAFT RESOLUTION
+  return `DEBATE CHAMBER COUNCIL, ROUND 3 OF 3: VOTE ON THE DRAFT RESOLUTION
 
 You hold the ${seat.short.toUpperCase()} seat.
 
@@ -196,7 +196,7 @@ async function chairSetup(st) {
 
 """${st.prompt}"""
 
-Set up the room.
+Set up the chamber.
 - title: the decision in 3 to 7 words.
 - decision: one line.
 - options: 2 to 4 options with ids A, B, C (D only if truly needed). Always include "don't do it" or "keep doing what you do now", and the obvious smaller version if the founder brought one big idea.
@@ -223,7 +223,7 @@ ${cardsBlock(st, 1)}
 
 Name the one to three cruxes: the underlying disagreements that explain why seats split (a fact, a number, or a value such as speed versus safety), with the seats on each side.
 Unanimity check: if every seat's top option is the same and their scores for it sit within 1 point, set unanimous true, make the strongest unargued alternative a crux, and say which seats whose pillars are most at risk must argue it at full strength.
-note: one or two plain sentences for the founder on what the room is fighting about.
+note: one or two plain sentences for the founder on what the chamber is fighting about.
 pressure: for each seat that holds a minority view, or that the unanimity check names, one sentence telling it exactly which argument it must answer in Round 2. Leave others out.`,
   });
 }
@@ -286,7 +286,7 @@ Any seat at ruin risk likely: ${st.seats.filter((k) => st.cards[lastRound][k]?.p
 Write the verdict for the founder.
 - label: the band, or WAIT if the recommended option depends on an unmet prerequisite, or a cap from an override. If you change the band, say why in override_note; otherwise override_note is "".
 - call: one or two sentences the founder can act on, naming the option.
-- why: 3 to 5 arguments that carried the room, each tagged with the seat and the framework.
+- why: 3 to 5 arguments that carried the chamber, each tagged with the seat and the framework.
 - fights: one entry per crux: who was on each side, who moved and why, how it resolved.
 - minority: the strongest losing view; quote copies the seat's own words exactly from a card; would_have_to_be_true in one line. If unanimous, use the least-tested assumption instead.
 - amendments: every Round 3 amendment, adopted or not, with the reason (empty in quick mode). Adopt when no seat objected or the argument went unanswered.
@@ -450,7 +450,7 @@ function verdictMarkdown(st) {
   const v = st.verdict;
   const opt = (id) => st.options.find((o) => o.id === id)?.label || id;
   const L = [];
-  L.push(`# Debate Room: ${st.title}`, "", `${new Date().toISOString().slice(0, 10)} · Seats: ${st.seats.map((k) => byKey[k].short).join(", ")} · Rounds: ${st.rounds.length} · Mode: ${st.mode}`, "");
+  L.push(`# Debate Chamber: ${st.title}`, "", `${new Date().toISOString().slice(0, 10)} · Seats: ${st.seats.map((k) => byKey[k].short).join(", ")} · Rounds: ${st.rounds.length} · Mode: ${st.mode}`, "");
   L.push(`## Verdict: ${v.label} (Option ${v.recommended}: ${opt(v.recommended)})`, "", `**The call:** ${v.call}`, "");
   L.push(`Option scores: ${st.options.map((o) => `${o.id} ${v.scores[o.id]?.score ?? "-"}`).join(" · ")}${v.support != null ? ` · Support for the resolution ${v.support}/10` : ""} · Confidence ${v.confidence ?? "-"}/10 · Spread ${v.spread}`);
   if (v.override_note) L.push("", v.override_note);

@@ -3,7 +3,7 @@
 Written by the Chair in plain English. No em dashes. No AI filler: state each point once, no tee-ups, no "here's the thing". Seat quotes keep their own voice. Keep the whole report under about 1,000 words; the round files hold the detail. Reference report: `sessions/2026-10-09-example-take-the-seed/verdict.md`.
 
 ```markdown
-# Debate Room: [decision in a few words]
+# Debate Chamber: [decision in a few words]
 
 [date] · Seats: [list] · Rounds: [n] · Mode: [full | quick | named seats]
 
@@ -24,7 +24,7 @@ Math: [one line per option]
 
 ## Why the council landed here
 
-[3 to 5 bullets: the arguments that carried the room, each tagged with the seat and framework, e.g. (Hormozi, Value Equation)]
+[3 to 5 bullets: the arguments that carried the chamber, each tagged with the seat and framework, e.g. (Hormozi, Value Equation)]
 
 ## Where they fought
 

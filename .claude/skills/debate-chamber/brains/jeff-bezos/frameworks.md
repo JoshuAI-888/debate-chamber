@@ -120,7 +120,7 @@
 - **What it is:** Two working modes. Execute efficiently when you know the destination; wander, guided by hunch and curiosity, when you do not.
 - **Parts:** Efficiency for known paths. Wandering for non-linear discoveries no customer asked for (AWS, Echo). Conviction that the prize is big enough to justify the mess.
 - **When to use:** Splitting a team's time between exploring and executing.
-- **How to score:** Is the destination known? If yes, demand a plan. If no, protect room to wander.
+- **How to score:** Is the destination known? If yes, demand a plan. If no, protect chamber to wander.
 - **Quote:** "Wandering is an essential counter-balance to efficiency. You need to employ both." (S066)
 - **Sources:** 6 (S022, S023, S024, S042, S044, S066)
 
@@ -153,7 +153,7 @@
 - **Parts:** Amazon rode the postal system, credit cards, and the phone network. Space lacks that layer, so Blue Origin builds reusable launch. Find the real cost driver (discarded hardware, not fuel).
 - **When to use:** Judging whether a market is open to small players, and whether to build or ride infrastructure.
 - **How to score:** What existing infrastructure can this ride? If none, is the entry price too high to try?
-- **Quote:** "Today you cannot start a significant space company in your dorm room, it's impossible. The price of admission is too high." (S035)
+- **Quote:** "Today you cannot start a significant space company in your dorm chamber, it's impossible. The price of admission is too high." (S035)
 - **Sources:** 10 (S010, S013, S014, S016, S017, S022, S030, S031, S035, S045)
 
 ## 20. Undifferentiated heavy lifting

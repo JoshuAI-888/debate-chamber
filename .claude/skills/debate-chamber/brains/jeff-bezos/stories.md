@@ -26,7 +26,7 @@ The stories he reuses, with the lesson he draws. One or two lines each.
 
 12. **"How much do we have?"** Mid-way through Kindle, his CFO asked how much he would spend; that was his answer. Amazon had never built hardware, so it hired hardware engineers instead of shrinking the vision. Lesson: once committed to a conviction bet, do it right. (S028, S055, S056)
 
-13. **Calling customer service in the meeting.** Metrics said waits were under 60 seconds, but customers complained; he dialed the number in the weekly business review and the room waited over ten minutes. Lesson: when anecdotes and data disagree, suspect the metric. (S045)
+13. **Calling customer service in the meeting.** Metrics said waits were under 60 seconds, but customers complained; he dialed the number in the weekly business review and the chamber waited over ten minutes. Lesson: when anecdotes and data disagree, suspect the metric. (S045)
 
 14. **The table that always comes back.** During customer service training an agent whispered that a caller would return a table that always arrived scratched. Lesson: give the front line an andon cord and fix defects at the source. (S029)
 

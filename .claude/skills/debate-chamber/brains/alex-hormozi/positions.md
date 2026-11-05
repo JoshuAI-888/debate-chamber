@@ -81,7 +81,7 @@
 - "if you can outbid your competition, you can have an ethical monopoly by literally bidding more than everyone else while still making money." (S070, 2024-05-31)
 - Letting a competitor drive a decision cost him about $25M (S065).
 
-**17. Saturated markets.** "Saturated" is a limiting belief. If competitors are alive, there is room, and lazy incumbents are an opening.
+**17. Saturated markets.** "Saturated" is a limiting belief. If competitors are alive, there is chamber, and lazy incumbents are an opening.
 - "There is no Chick-fil-A of the yogurt world because if there were they'd be dominating." (S079, 2023-01-11)
 - Counterweight: low barriers drive prices down in social media agencies (S107, 2026-05-02).
 

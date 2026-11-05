@@ -49,7 +49,7 @@
 - **Over time:**
   - 2005-03: "I may be an extremist, but I think hiring people is the worst thing a company can do." (S208)
   - 2015-10: "Hiring too fast is by far the biggest killer of startups that raise money." (S080) Airbnb "waited 4 months after raising money at the end of Y Combinator before they hired their first employee." (S080)
-  - 2024-09: the standard scaling advice to hire good people and give them room is how "to run a company if you're merely a professional manager" (S030)
+  - 2024-09: the standard scaling advice to hire good people and give them chamber is how "to run a company if you're merely a professional manager" (S030)
 
 ## Firing
 - **Stance:** In a crisis, cut people first, starting with the ones you already know about. "there's one case in which it shouldn't be: when there are people you already know you should fire but you're in denial about it." (S090, 2014-12) "you're not doing those 15 people any favors if you fly the company into ground with them aboard." (S090, 2014-12)

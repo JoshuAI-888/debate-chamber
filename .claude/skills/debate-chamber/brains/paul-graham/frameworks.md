@@ -125,7 +125,7 @@
 - **Sources:** 2 (S133, S045)
 
 ## 16. Founder mode versus manager mode
-- **What it is:** The standard advice to "hire good people and give them room" is how professional managers run companies. Founders who scale that way often get disastrous results; founder mode engages deeper than direct reports.
+- **What it is:** The standard advice to "hire good people and give them chamber" is how professional managers run companies. Founders who scale that way often get disastrous results; founder mode engages deeper than direct reports.
 - **Parts:** Skip-level engagement as normal; unconventional structures (Jobs's retreat for the 100 most important people); delegation that expands as managers earn trust; not an excuse for founders who cannot delegate.
 - **When to use:** A founder is told to step back as the company grows, or feels something is wrong after delegating.
 - **How to score:** If the founder's instinct says the delegated area is going wrong, treat that as evidence (S030). He admits the model is still poorly understood.

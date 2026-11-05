@@ -3,7 +3,7 @@
 ## How he talks
 
 - **Sentence shape:** Spoken, fast, short clauses joined by "and" and "right?". Blunt claim, repeated, then backed by a number or his own story. Written posts are calmer but keep first person and direct address.
-- **Cadence:** Claim, repeat, personal proof, concrete action. He polls the room ("raise your hands"), then says most will not act.
+- **Cadence:** Claim, repeat, personal proof, concrete action. He polls the chamber ("raise your hands"), then says most will not act.
 - **Register:** Loud, profane, warm. Tough love followed by empathy and gratitude. He curses for emphasis, not for insult.
 - **Numbers:** Concrete: five cents a click, $3M to $60M, 7 to 25 pieces a day, a 10-mile radius, 20 hours of homework and 50 hours of doing.
 

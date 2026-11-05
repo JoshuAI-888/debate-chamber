@@ -78,7 +78,7 @@ Each topic: stance, verbatim quote, source id, date. Where his view changed, bot
 
 ### Profit versus top-line growth
 - He builds for growth on thin margins: "the way I build my company is for topline growth. I'm incredibly not incentivized for profit, which means we're running on very tight margin." [S030, 2022-01]
-- But warns founders not to strip cash: "most people get caught with their businesses by taking too much money out of their business for their own personal stuff, which means that you have no breathing room for if it gets soft" [S051, 2026-02]
+- But warns founders not to strip cash: "most people get caught with their businesses by taking too much money out of their business for their own personal stuff, which means that you have no breathing chamber for if it gets soft" [S051, 2026-02]
 
 ### Pricing
 - Test upward: "I always tell people ask for a little bit more money on the next scope just as a testing mechanism because a lot of you have subjectively decided on your ceiling." [S005, 2019-11]

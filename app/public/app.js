@@ -13,14 +13,14 @@ const SAMPLES = [
 
 const EXAMPLE = "I run a coaching business at $30k a month with 15 clients at $2,000 each. Should I raise to $3,500 for everyone, raise for new clients only, or keep $2,000? Close rate is about 50% and I have $40k in the bank. Success is $45k a month by March. I'm leaning toward raising for everyone because I'm underpaid.";
 
-// The how-to, shown in the side panel while the room is empty and in "How it works".
+// The how-to, shown in the side panel while the chamber is empty and in "How it works".
 const GUIDE = `
   <div class="guide">
     <div class="guide-sec">
-      <h4>How to use the Debate Room</h4>
+      <h4>How to use the Debate Chamber</h4>
       <ol>
         <li><span>Open Claude Code in this folder.</span></li>
-        <li><span>Type <code>/debate-room</code> and your decision.</span></li>
+        <li><span>Type <code>/debate-chamber</code> and your decision.</span></li>
         <li><span>Answer the Chair's questions. Then watch the council argue it out here.</span></li>
         <li><span>When the verdict lands, download it as a PDF.</span></li>
       </ol>
@@ -40,7 +40,7 @@ const GUIDE = `
     <div class="guide-sec">
       <h4>Example</h4>
       <div class="example">
-        <p><code>/debate-room</code> ${EXAMPLE.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</p>
+        <p><code>/debate-chamber</code> ${EXAMPLE.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</p>
         <button class="ghost" type="button" data-copy-example>Copy this example</button>
       </div>
     </div>
@@ -201,7 +201,7 @@ function bindUI() {
   $("#guideBtn").addEventListener("click", openGuide);
   document.addEventListener("click", async (e) => {
     if (e.target.closest("[data-copy-example]")) {
-      try { await navigator.clipboard.writeText("/debate-room " + EXAMPLE); toast("Copied. Paste it into Claude Code."); }
+      try { await navigator.clipboard.writeText("/debate-chamber " + EXAMPLE); toast("Copied. Paste it into Claude Code."); }
       catch { toast("Copy didn't work here. Select the text and copy it."); }
     }
     if (e.target.closest("[data-pdf]")) savePdf(e.target.closest("[data-pdf]"));
@@ -477,7 +477,7 @@ async function speak(key, text, { tag = "", target = null, sub = "" } = {}) {
   await player.sleep(1300);
 }
 
-// idle blinking for everyone, so the room feels alive between lines
+// idle blinking for everyone, so the chamber feels alive between lines
 function startBlinking() {
   const blink = (key) => {
     const b = $(`#seat-${key} .bust`);
@@ -732,8 +732,8 @@ function waitCopy(phase) {
     round3: ["Round 3 of " + n, "The advisors are voting on the Chair's proposal.", SAME_TIME],
     cruxes: ["Between rounds", "The Chair is reading the openings and finding where they disagree.", "The fight shows up here next, then the debate starts."],
     draft: ["Between rounds", "The Chair is turning the debate into a proposal for the vote.", "Next, every advisor votes on it."],
-    skip3: ["Last step", "The Chair is scoring the room and writing the verdict.", "When it lands, you can download it as a PDF."],
-    verdict: ["Last step", "The Chair is scoring the room and writing the verdict.", "When it lands, you can download it as a PDF."],
+    skip3: ["Last step", "The Chair is scoring the chamber and writing the verdict.", "When it lands, you can download it as a PDF."],
+    verdict: ["Last step", "The Chair is scoring the chamber and writing the verdict.", "When it lands, you can download it as a PDF."],
   }[phase] || ["Working", "The council is working.", ""];
 }
 const clock = (ms) => { const s = Math.max(0, Math.round(ms / 1000)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
@@ -756,7 +756,7 @@ function tickWait() {
     state.capWasShown = !$("#caption").hidden;
     $("#caption").hidden = true;
     $("#cruxes").hidden = true;
-    // speed controls do nothing while the room waits, and they would cover the card
+    // speed controls do nothing while the chamber waits, and they would cover the card
     state.playbarWasShown = !$("#playbar").hidden;
     $("#playbar").hidden = true;
     card.hidden = false;

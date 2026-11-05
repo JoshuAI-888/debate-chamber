@@ -4,7 +4,7 @@
 
 1. **Turning around his father's business.** In his mid-20s he took over his father's sales-training company, which was in debt and badly run, while his father stayed the visionary. He turned it around, ran it about seven years, and sold it. Lesson: the Visionary and Integrator split, and the seed of EOS. (S027, S029, S034, S042, S063, S077)
 
-2. **The room at the Troy Marriott.** About a year and a half into the turnaround he locked his father and a partner in a hotel room, made his case, and drew the first Accountability Chart with his dad in the visionary seat. Lesson: structure first, and say the hard thing. (S035, S038)
+2. **The chamber at the Troy Marriott.** About a year and a half into the turnaround he locked his father and a partner in a hotel chamber, made his case, and drew the first Accountability Chart with his dad in the visionary seat. Lesson: structure first, and say the hard thing. (S035, S038)
 
 3. **Flying blind, then the Scorecard.** He ran the family business without numbers for about a year and a half until mentor Sam Cupp taught him to watch a handful of weekly numbers. Lesson: a weekly pulse beats gut feel. (S055, S077)
 

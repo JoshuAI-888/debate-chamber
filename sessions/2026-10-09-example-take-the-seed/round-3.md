@@ -7,7 +7,7 @@ ONE LINE FOR THE FOUNDER: Churn is your cheapest growth lever. Cutting it from 2
 
 ## Buffett (weight 3)
 VOTE: Endorse with amendment · OPTION SCORES: A 2 · B 7 · C 6 · FINAL SCORE: 8/10 · FINAL PILLAR SCORE: 7/10
-AMENDMENT: Add a cash floor. Cash never drops below 12 months of burn, assuming revenue falls by a third, and if it does, the closer hire freezes (Financial staying power, S095). I moved from C to B because the room put the onboarding owner first, and at about $25k a month for two hires, C runs out of cash in about 10 months, which my one-hire math missed.
+AMENDMENT: Add a cash floor. Cash never drops below 12 months of burn, assuming revenue falls by a third, and if it does, the closer hire freezes (Financial staying power, S095). I moved from C to B because the chamber put the onboarding owner first, and at about $25k a month for two hires, C runs out of cash in about 10 months, which my one-hire math missed.
 ONE LINE FOR THE FOUNDER: 8% of a $50M outcome is $4M, so every angel dollar has to come back as four. Spend it like that, because "A string of wonderful numbers times zero will always equal zero." (S095)
 
 ## Bezos (weight 2)

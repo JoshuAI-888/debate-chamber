@@ -1,8 +1,8 @@
-# Live room files
+# Live chamber files
 
-The Debate Room (a local web app on http://localhost:4730) watches the sessions folder and plays a council as its files appear: portraits talk one at a time, rebuttal arrows fly, votes land, and the verdict comes up. It reads the round files you already write, plus four small JSON files. Write each one at the moment listed, as plain JSON (no comments, no trailing commas). Seat names can be keys (`garyvee`) or display names (`Gary V`).
+The Debate Chamber (a local web app on http://localhost:4730) watches the sessions folder and plays a council as its files appear: portraits talk one at a time, rebuttal arrows fly, votes land, and the verdict comes up. It reads the round files you already write, plus four small JSON files. Write each one at the moment listed, as plain JSON (no comments, no trailing commas). Seat names can be keys (`garyvee`) or display names (`Gary V`).
 
-The room is optional. Write these files anyway; they cost a few lines and the council runs the same without the room.
+The chamber is optional. Write these files anyway; they cost a few lines and the council runs the same without the chamber.
 
 ## Order
 
@@ -54,7 +54,7 @@ The room is optional. Write these files anyway; they cost a few lines and the co
     }
   ],
   "unanimous": false,
-  "note": "One plain sentence on what the room is fighting about."
+  "note": "One plain sentence on what the chamber is fighting about."
 }
 ```
 
@@ -96,4 +96,4 @@ One to three cruxes. Questions under 90 characters, positions under 50.
 }
 ```
 
-`label` is one of GO, GO WITH CONDITIONS, RESHAPE, WAIT, DON'T DO IT. Put the three strongest arguments first in `why` and at most three `next_steps`; the room shows those up front and folds the rest under "Full detail". The room computes the option scores, confidence, and votes itself from the cards, so they are not in this file.
+`label` is one of GO, GO WITH CONDITIONS, RESHAPE, WAIT, DON'T DO IT. Put the three strongest arguments first in `why` and at most three `next_steps`; the chamber shows those up front and folds the rest under "Full detail". The chamber computes the option scores, confidence, and votes itself from the cards, so they are not in this file.

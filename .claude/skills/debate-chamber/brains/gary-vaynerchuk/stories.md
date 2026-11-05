@@ -18,7 +18,7 @@ One or two lines each, with the lesson he draws and where he tells it.
 
 8. **Passing on Uber.** Friends with Travis Kalanick, he passed (twice in some tellings) because he had just bought an apartment and felt illiquid, a miss he puts in the hundreds of millions. Lesson: back operators, stay liquid, scared money doesn't make money. (S012, S035, S051, S076, S081, S113)
 
-9. **Starting VaynerMedia in someone else's conference room.** At 34, with no outside money, he bootstrapped the agency, which grew from about $3M to hundreds of millions in revenue and thousands of people. Lesson: build from revenue and reinvest; you do not need to raise. (S011, S059, S075, S116, S125)
+9. **Starting VaynerMedia in someone else's conference chamber.** At 34, with no outside money, he bootstrapped the agency, which grew from about $3M to hundreds of millions in revenue and thousands of people. Lesson: build from revenue and reinvest; you do not need to raise. (S011, S059, S075, S116, S125)
 
 10. **The Dutch Bros keynote machine.** One keynote became 30+ native pieces (DailyVee, podcast, clips, quotes, GIFs, an article) and over 35M views. Lesson: the pillar-to-micro model works when a team cuts it and comments guide round two. (S112, S144)
 

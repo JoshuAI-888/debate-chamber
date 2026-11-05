@@ -26,7 +26,7 @@ Two labels replace the band when they fit better, and the report says why:
 
 ## Resolution support
 
-Round 3's FINAL SCORE is each seat's support for the draft resolution as written. Report its weighted average as "Support for the resolution". It measures how well the Chair's plan captured the room, not whether the idea is good.
+Round 3's FINAL SCORE is each seat's support for the draft resolution as written. Report its weighted average as "Support for the resolution". It measures how well the Chair's plan captured the chamber, not whether the idea is good.
 
 ## Overrides (applied after the band, and stated in the report)
 

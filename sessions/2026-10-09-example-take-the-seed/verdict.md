@@ -1,4 +1,4 @@
-# Debate Room: take the $4M seed or keep bootstrapping
+# Debate Chamber: take the $4M seed or keep bootstrapping
 
 2026-10-09 · Seats: all seven · Rounds: 3 · Mode: full council
 
