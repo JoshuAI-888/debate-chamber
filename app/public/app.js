@@ -17,10 +17,10 @@ const EXAMPLE = "I run a coaching business at $30k a month with 15 clients at $2
 const GUIDE = `
   <div class="guide">
     <div class="guide-sec">
-      <h4>How to use the Roast Room</h4>
+      <h4>How to use the Debate Room</h4>
       <ol>
         <li><span>Open Claude Code in this folder.</span></li>
-        <li><span>Type <code>/roast-room</code> and your decision.</span></li>
+        <li><span>Type <code>/debate-room</code> and your decision.</span></li>
         <li><span>Answer the Chair's questions. Then watch the council argue it out here.</span></li>
         <li><span>When the verdict lands, download it as a PDF.</span></li>
       </ol>
@@ -40,7 +40,7 @@ const GUIDE = `
     <div class="guide-sec">
       <h4>Example</h4>
       <div class="example">
-        <p><code>/roast-room</code> ${EXAMPLE.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</p>
+        <p><code>/debate-room</code> ${EXAMPLE.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</p>
         <button class="ghost" type="button" data-copy-example>Copy this example</button>
       </div>
     </div>
@@ -201,7 +201,7 @@ function bindUI() {
   $("#guideBtn").addEventListener("click", openGuide);
   document.addEventListener("click", async (e) => {
     if (e.target.closest("[data-copy-example]")) {
-      try { await navigator.clipboard.writeText("/roast-room " + EXAMPLE); toast("Copied. Paste it into Claude Code."); }
+      try { await navigator.clipboard.writeText("/debate-room " + EXAMPLE); toast("Copied. Paste it into Claude Code."); }
       catch { toast("Copy didn't work here. Select the text and copy it."); }
     }
     if (e.target.closest("[data-pdf]")) savePdf(e.target.closest("[data-pdf]"));
